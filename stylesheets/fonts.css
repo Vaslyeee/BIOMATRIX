@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Euro';
     src: url(../fonts/AnyConv.com__europeextendedc.woff2);
     font-weight: 400;
@@ -9,4 +9,20 @@
     src: url(../fonts/AnyConv.com__europeextendedc_bold.woff2);
     font-weight: 700;
     font-style: normal;
-}
+} */
+
+  
+  @font-face {
+    font-family: 'Euro';
+    src: url('../fonts/AnyConv.com__europeextendedc.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Euro';
+    src: url('../fonts/AnyConv.com__europeextendedc_bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+  }
+  
