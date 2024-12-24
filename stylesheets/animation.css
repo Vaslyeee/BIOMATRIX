@@ -2,21 +2,71 @@
   animation: movingCircle 8s linear infinite;
 }
 
-.hand-block {
+/* .hand-block {
   animation: block 3s linear alternate infinite;
   height: 18vw;
+} */
+
+/* .leg-block {
+  animation: legblock 5s linear infinite;
+} */
+
+/* .foot-block {
+  animation: footblock 3s linear infinite;
+} */
+
+.circle-initial:hover ~ .hand-block {
+  animation: block 5s linear alternate infinite;
+}
+.circle-central:hover ~ .leg-block {
+  animation: legblock 5s linear alternate infinite;
 }
 
-.leg-block {
-  animation: block 4s linear infinite ;
+.circle-last:hover ~ .foot-block {
+  animation: footblock 5s linear alternate infinite;
+}
+
+.first-letter__container {
+  animation: first-letter__container 4s linear alternate infinite;
+}
+
+.second-letter__container {
+  animation: second-letter__container 4s linear alternate infinite;
 }
 
 @keyframes block {
   0% {
-    top: 0;
+    top: 10%;
+  }
+  50% {
+    top: 30%;
   }
   100% {
-    top: 20%;
+    top: 30%;
+  }
+}
+
+@keyframes legblock {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: 40%;
+  }
+  100% {
+    top: 40%;
+  }
+}
+
+@keyframes footblock {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: 25%;
+  }
+  100% {
+    top: 25%;
   }
 }
 
@@ -39,7 +89,7 @@
     left: 37%;
   }
   40% {
-    top: 90%;
+    top: 75%;
     left: 20%;
   }
   60% {
@@ -53,5 +103,23 @@
   100% {
     top: 0;
     left: 0;
+  }
+}
+
+@keyframes first-letter__container {
+  0% {
+    top: 9%;
+  }
+  100% {
+    top: 15%;
+  }
+}
+
+@keyframes second-letter__container {
+  0% {
+    top: 9.5%;
+  }
+  100% {
+    top: 15%;
   }
 }

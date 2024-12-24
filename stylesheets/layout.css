@@ -14,7 +14,7 @@ body {
   color: rgb(255, 255, 255);
 }
 .running-line__text > span:hover {
-  color: blueviolet;
+  color: rgb(195, 43, 226);
 }
 
 .running-line-wrapper {
@@ -40,7 +40,8 @@ body {
 .main-screen {
   position: relative;
   display: flex;
-  height: 60vw;
+  height: 80vw;
+  overflow: hidden;
 }
 .movingCircle {
   position: absolute;
@@ -60,7 +61,7 @@ body {
   font-size: 5vw;
   color: rgb(255, 255, 255);
   font-family: "Eurobold";
-  margin-top: 52%;
+  margin-top: 60%;
   margin-left: 7%;
 }
 
@@ -94,31 +95,32 @@ body {
 }
 
 .block {
-  background-color: rgb(241, 222, 222);
+  background-color: rgb(0, 0, 0);
 }
 
 .foot-block {
   position: absolute;
   width: 7vw;
-  height: 7vw;
-  margin-left: 61%;
-  margin-top: 22%;
+  height: 8vw;
+  margin-left: -36%;
+  margin-top: 115%;
 }
 
 .leg-block {
   position: absolute;
   width: 8vw;
   height: 21vw;
-  margin-left: 33%;
-  margin-top: 100%;
+  margin-left: -64%;
+  margin-top: 92%;
 }
 
 .hand-block {
   position: absolute;
   width: 7vw;
-  margin-top: 64%;
-  margin-left: 72%;
+  margin-top: 48%;
+  margin-left: -24%;
   rotate: -10deg;
+  height: 18vw;
 }
 
 .body-parts__screen {
@@ -129,25 +131,93 @@ body {
 }
 
 .second-line {
-  margin-top: 19.5%;
+  margin-top: 1%;
 }
 
 .letters-container {
   position: absolute;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 70vw;
-  width: 20vw;
+  height: 79vw;
+  width: 23vw;
   background-color: #00f772;
+  border-radius: 2vw;
+  margin-top: 8%;
+  margin-left: 2%;
 }
 
 .letters {
   position: absolute;
   font-family: "Eurobold";
   color: rgb(255, 255, 255);
-  margin-top: 27%;
-  margin-left: 10.5%;
-  font-size: 5.8vw;
-  gap: 0.01vw;
+  margin-top: 15%;
+  margin-left: 1%;
+  font-size: 6.6vw;
+}
+
+.letter-block {
+  position: absolute;
+  background-color: black;
+}
+
+.first-letter {
+  position: absolute;
+  margin-top: -10%;
+  z-index: 1;
+}
+
+.first-letter__container {
+  margin-top: -45%;
+  height: 1.8vw;
+  width: 5vw;
+  z-index: 1;
+}
+
+.second-letter {
+  margin-top: 100%;
+  z-index: 3;
+}
+
+.second-letter__container {
+  margin-top: 50%;
+  height: 1.8vw;
+  width: 5.2vw;
+  z-index: 3;
+}
+
+.third-letter {
+  position: absolute;
+  margin-top: 100%;
+  z-index: 3;
+}
+
+.third-letter__container {
+  margin-top: 60%;
+  height: 1.8vw;
+  width: 5.2vw;
+  z-index: 4;
+}
+
+.fourth-letter {
+  position: absolute;
+  margin-top: 5%;
+  z-index: 4;
+}
+
+.foot {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+  margin-left: 320%;
+  background-color: rgb(64, 114, 159);
+  width: 100%;
+  height: 150%;
+  border-radius: 2vw;
+
+}
+
+.foot-picture {
+  position: absolute;
+  margin-top: 30%;
 }
