@@ -1,5 +1,5 @@
 .movingCircle {
-  animation: movingCircle 8s linear infinite;
+  animation: movingCircle 7s linear infinite;
 }
 
 /* .hand-block {
@@ -89,15 +89,15 @@
     left: 37%;
   }
   40% {
-    top: 75%;
-    left: 20%;
+    top: 65%;
+    left: 10%;
   }
   60% {
-    top: 30%;
+    top: 25%;
     left: 37%;
   }
   80% {
-    top: 75%;
+    top: 65%;
     left: 35%;
   }
   100% {

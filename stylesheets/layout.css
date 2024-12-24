@@ -131,18 +131,18 @@ body {
 }
 
 .second-line {
-  margin-top: 1%;
+  margin-top: -6%;
 }
 
 .letters-container {
   position: absolute;
   display: flex;
   justify-content: center;
-  height: 79vw;
-  width: 23vw;
+  height: 67vw;
+  width: 20vw;
   background-color: #00f772;
   border-radius: 2vw;
-  margin-top: 8%;
+  margin-top: 1%;
   margin-left: 2%;
 }
 
@@ -208,16 +208,15 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-top: 50%;
+  margin-top: 1%;
   margin-left: 320%;
   background-color: rgb(64, 114, 159);
-  width: 100%;
-  height: 150%;
+  width: 150%;
+  height: 110%;
   border-radius: 2vw;
-
+  border: 2vw white;
 }
 
 .foot-picture {
-  position: absolute;
-  margin-top: 30%;
+
 }
