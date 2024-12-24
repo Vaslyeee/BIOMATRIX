@@ -1,0 +1,57 @@
+.movingCircle {
+  animation: movingCircle 8s linear infinite;
+}
+
+.hand-block {
+  animation: block 3s linear alternate infinite;
+  height: 18vw;
+}
+
+.leg-block {
+  animation: block 4s linear infinite ;
+}
+
+@keyframes block {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 20%;
+  }
+}
+
+@keyframes run {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-260%);
+  }
+}
+
+@keyframes movingCircle {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  20% {
+    top: 40%;
+    left: 37%;
+  }
+  40% {
+    top: 90%;
+    left: 20%;
+  }
+  60% {
+    top: 30%;
+    left: 37%;
+  }
+  80% {
+    top: 75%;
+    left: 35%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}

@@ -1,28 +1,28 @@
-/* @font-face {
-    font-family: 'Euro';
-    src: url(../fonts/AnyConv.com__europeextendedc.woff2);
-    font-weight: 400;
+ @font-face {
+    font-family: 'Eurobold';
+    src: url('../fonts/europeextendedc_bold.otf') format('opentype');
     font-style: normal;
-}
-@font-face {
-    font-family: 'Euro';
-    src: url(../fonts/AnyConv.com__europeextendedc_bold.woff2);
     font-weight: 700;
-    font-style: normal;
-} */
-
+  }
   
   @font-face {
-    font-family: 'Euro';
-    src: url('../fonts/AnyConv.com__europeextendedc.woff2') format('woff2');
-    font-style: normal;
+    font-family: 'EuroboldItalic';
+    src: url('../fonts/europeextendedc_bolditalic.otf') format('opentype');
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: 'EuroItalic';
+    src: url('../fonts/europeextendedc_italic.otf') format('opentype');
+    font-style: italic;
     font-weight: 400;
   }
   
   @font-face {
     font-family: 'Euro';
-    src: url('../fonts/AnyConv.com__europeextendedc_bold.woff2') format('woff2');
+    src: url('../fonts/europeextendedc.otf') format('opentype');
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
   }
   
