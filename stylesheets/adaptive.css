@@ -1,2 +1,130 @@
-@media screen and (max-width: 500px) {
-}
+@media screen and (max-width: 1024px) {
+    .left-letter-container {
+      width: 100%;
+    }
+    .letters-container {
+      flex-direction: row;
+    }
+    .body-parts__screen {
+      flex-direction: column;
+    }
+    .circle {
+      width: 5vw;
+      height: 5vw;
+      margin-top: 65%;
+    }
+    .letterappearning {
+      width: 100%;
+      height: 60vw;
+      font-size: 50vw;
+    }
+    .lizardSection {
+      flex-direction: column;
+    }
+    .lizard {
+      width: 100%;
+      height: 60vw;
+    }
+    .circlesInnerContainer {
+      height: 30vh;
+    }
+    .flowingletters {
+      height: 40vh;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .buttonsContainer {
+      flex-direction: row;
+    }
+    .lizardIMG {
+      background-position: center 40%;
+    }
+    .button {
+      width: 8vw;
+    }
+    .title-text {
+      text-align: center;
+      margin-left: 50%;
+      margin-top: 70%;
+    }
+    .person {
+      display: none;
+    }
+    .letters-container {
+      font-size: 12vw;
+      padding: 3vw 15vw;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .letterMainContainer {
+      width: 20vw;
+    }
+    .letter-block {
+      height: 10vw;
+      width: 12vw;
+    }
+    .foot,
+    .hand,
+    .loadingBox,
+    .errorBox {
+      width: 100%;
+    }
+  
+    .loadingBox {
+      order: 2;
+    }
+    .errorBox {
+      order: 4;
+    }
+    .foot {
+      order: 1;
+    }
+    .hand {
+      order: 3;
+    }
+    .foot,
+    .hand {
+      height: 120vw;
+    }
+    .foot-picture {
+      width: 40%;
+    }
+    .hand-picture {
+      width: 60%;
+    }
+    .loading-text {
+      font-size: 4vw;
+    }
+    .loading-container,
+    .error-container {
+      height: 12vw;
+    }
+    .square {
+      width: 8vw;
+      height: 8vw;
+    }
+    .letterappearning {
+      width: 100%;
+      height: 80vw;
+      font-size: 50vw;
+    }
+    .lizardSection {
+      flex-direction: column;
+    }
+    .lizard {
+      width: 100%;
+      height: 80vw;
+    }
+    .flowingletters {
+      height: 30vh;
+    }
+    .circlesInnerContainer {
+      height: 30vh;
+    }
+    .naming {
+      font-size: 4vw;
+    }
+    .logo {
+      width: 25vw;
+    }
+  }

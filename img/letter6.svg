@@ -1,0 +1,17 @@
+<svg width="216" height="176" viewBox="0 0 216 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_0_8279" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="0" width="204" height="176">
+<path d="M47.5 94.75V77.25H197.5V63.5C197.5 28 186.5 17.5 151.25 17.5H75.25C40.75 17.5 30.5 30 30.5 49.5H12.5C12.5 16 33.5 0 75.5 0H151.5C198 0 215.5 17.5 215.5 63.5V114C215.5 158.5 198 175.5 151.5 175.5H75.5C29.5 175.5 12.5 159 12.5 126.5H30.5C30.5 148.5 42 158 75.25 158H151.25C185.5 158 197.5 148.5 197.5 114V94.75H47.5Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_8279)">
+<path d="M-21 -56.5H224V75.5H-21V-56.5Z" fill="white"/>
+<path d="M-21 -56.5H224V75.5H-21V-56.5Z" fill="white"/>
+<path d="M197 7.5H224V139.5H197V7.5Z" fill="white"/>
+<path d="M-16 95.5H229V227.5H-16V95.5Z" fill="white"/>
+</g>
+<mask id="mask1_0_8279" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="204" height="176">
+<path d="M58.5 72.75H161.75V65.25C161.75 38 155.75 35 128 35H74.75C50.75 35 41.5 42.5 41.5 60H0C0 11.25 26.75 0.5 67.75 0.5H136.25C187.25 0.5 203.25 13.5 203.25 63.75V114.5C203.25 161 188 176 140 176H62.75C11.5 176 0 162 0 115.75H41.5C41.5 137 50.25 141.5 75 141.5H128.25C152 141.5 161.75 136.25 161.75 109.75V103H58.5V72.75Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_0_8279)">
+<path d="M-17.5 73H288.5V103H-17.5V73Z" fill="white"/>
+</g>
+</svg>
