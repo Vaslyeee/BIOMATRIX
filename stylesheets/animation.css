@@ -155,12 +155,53 @@
   }
 }
 
-@keyframes letter__container {
-  0% {
-    top: -30%;
-  }
+@keyframes letter__container_letterR {
+  0%,
   100% {
+    top: 64%;
+  }
+  50% {
     top: 100%;
+  }
+}
+
+@keyframes letter__container_letterE {
+  0%,
+  100% {
+    top: 55%;
+  }
+  50% {
+    top: 100%;
+  }
+}
+
+@keyframes letter__container_letterG {
+  0%,
+  100% {
+    top: 28%;
+  }
+  50% {
+    top: 100%;
+  }
+}
+
+@keyframes letter__container_letterI {
+  0%,
+  100% {
+    top: 28%;
+  }
+  50% {
+    top: 100%;
+  }
+}
+
+@keyframes letter__container_letterY {
+  0%,
+  100% {
+    left: -25%;
+  }
+  50% {
+    left: 25%;
   }
 }
 
